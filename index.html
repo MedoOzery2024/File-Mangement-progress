@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Storage Program</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>File Storage Program</h1>
+        <div id="digitalClock"></div>
+
+        <input type="file" id="fileInput" multiple>
+        <button onclick="storeFiles()">Store Files</button>
+        <button onclick="copyFiles()">Copy Files</button>
+
+        <div id="storedFiles">
+            <h2>Stored Files</h2>
+            <ul id="storedFilesList"></ul>
+        </div>
+
+        <div id="copiedFiles">
+            <h2>Copied Files</h2>
+            <ul id="copiedFilesList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
